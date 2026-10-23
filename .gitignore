@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+# local dev leftovers — never publish
+*.bak-*
+*.bak.*
+unified_block.py

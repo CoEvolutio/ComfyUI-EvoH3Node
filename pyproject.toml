@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-evoh3node"
+description = "MiniMax H3 video generation via the EvoH3 relay's OpenAI-compatible entry, including local-file first frames and reference motion."
+version = "1.1.0"
+requires-python = ">=3.10"
+dependencies = ["aiohttp>=3.9.0"]
+license = { file = "LICENSE" }
+keywords = ["comfyui", "minimax", "h3", "video", "evoh3", "t2v", "i2v"]
+
+[project.urls]
+Repository = "https://github.com/CoEvolutio/ComfyUI-EvoH3Node"
+Issues = "https://github.com/CoEvolutio/ComfyUI-EvoH3Node/issues"
+
+# Publishing to https://registry.comfy.org later: add a [tool.comfy] section with the
+# PublisherId they assign. Not needed for ComfyUI-Manager "Install via Git URL".
